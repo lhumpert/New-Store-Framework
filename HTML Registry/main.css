@@ -1,0 +1,120 @@
+html {
+display: block;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #2299ff;
+}
+
+#header {
+    text-align: right;
+    padding: 25px 10px;
+    background-color: white;
+    margin: 0px 0px 75px 0px;
+    border-bottom: 1px solid gray;
+    box-shadow: 0px 3px 5px darkgrey;
+}
+
+#header a {
+    padding: 8px 20px;
+    margin: 10px;
+    background-color: blue;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: white;
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 15px;
+    text-align: right;
+}
+
+.nav-link {
+    background-color: blue;
+    border-color: blue;
+    color: white;
+    padding: .5rem;
+    border-radius: 7px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+}
+
+#form {
+     width: 300px;
+     margin: auto;
+     padding: 30px 25px;
+     background-color: white;
+     border: 1px solid grey;
+     border-radius: 5px;
+     box-shadow: 4px 4px 12px darkgrey;  
+}
+
+ #form h2 {
+     margin: 10px;
+}
+  
+ h2 {
+     display: block;
+     font-size: 1.5em;
+     margin-block-start: 0.83em;
+     margin-block-end: 0.83em;
+     margin-inline-start: 0px;
+     margin-inline-end: 0px;
+     font-weight: bold;
+ }
+
+ 
+    
+#inputDiv {
+    text-align: center;
+}
+
+input {
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    Letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: textfield;
+    background-color: -internal-light-dark(rgb (255, 255, 255),  rgb(59, 59, 59));
+    -webkit-rtl-ordering: Logical;
+    cursor: text;
+}
+
+#form input, #form button {
+  margin: 13px 0px;
+  width: 90%;
+  padding: 7px;
+  outline: none;
+  border: 1px solid gray;
+  border-radius: 3px;  
+}
+
+#form #submit {
+    width: 95%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+  
+#images {
+    text-align: center;
+    margin-top: 30px;
+
+}
+    
+
